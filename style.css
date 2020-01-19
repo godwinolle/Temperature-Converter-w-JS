@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+
+body{
+    background-image: linear-gradient(to left, #8e0e00, #1f1c18);
+    /*background: linear-gradient(to left, #8e0e00, #1f1c18); */
+}
+
+.container{
+    margin-top: 30px;
+    background-color: #fff;
+    width: 400px;
+    border-radius: 3px;
+}
+
+.line{
+    width: 400px;
+    border: 1px solid;
+}
+
+.btn{
+    margin-left: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn:hover{
+    background-color: #1f1c18;
+}
+
+.content{
+    padding: 10px;
+}
+
+.answer{
+    display: none;;
+}
