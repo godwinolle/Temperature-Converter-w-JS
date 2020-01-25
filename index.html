@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
         integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" 
         crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/87e6b03e72.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
     <title>Temperature Converter</title>
 </head>
 <body>
@@ -16,7 +17,7 @@
         <div class="content">
             <div class="conversion">
                 <input class="convert-FROM" type="text" placeholder="Convert From">
-                <p>=</p>
+                <p><i class="fas fa-equals"></i></p>
                 <input class="convert-to" type="text" placeholder="">
             </div>
     
@@ -26,7 +27,7 @@
                     <option value="celcius">Celcius</option>
                     <option value="kelvin">Kelvin</option>
                   </select>
-
+                <p><i class="fas fa-arrow-right"></i></p>
                   <select class="answerSelection">
                     <option value="celcius">Celcius</option>
                     <option value="fahrenheit">Fahrenheit</option>
@@ -36,9 +37,10 @@
             
             <div class="formula-Box">
                 <p class="formulaSymbol">Formula</p>
-                <span class="formula">(°F − 32) × 5/9 + 273.15 = K</span>
+                <span class="formula"></span>
             </div>
         </div>
     </div>
+    <script src="app.js"></script>
 </body>
 </html>
