@@ -9,31 +9,57 @@ body{
 }
 
 .container{
-    margin-top: 30px;
-    background-color: #fff;
-    width: 400px;
+    margin: 100px auto;
+    background-color: rgb(32, 42, 56);
+    width: 50%;
+    height: 300px;
+    border: #1f1c18 1px solid;
+    border-radius: 10px;
+}
+
+.container h2{
+    margin-bottom: 30px;
+    text-align: end;
+    color: aqua;
+}
+
+
+.container input{
+    height: 30px;
+    width: auto;
     border-radius: 3px;
+
 }
 
-.line{
-    width: 400px;
-    border: 1px solid;
+.convert-FROM{
+    padding-left: 0;
 }
 
-.btn{
-    margin-left: 150px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+.conversion{
+    display: flex;
+    justify-content: space-evenly;
 }
 
-.btn:hover{
-    background-color: #1f1c18;
+.conversion-type{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
 }
 
-.content{
-    padding: 10px;
+.conversion-type select{
+    width: 130px;
+    height: 30px;
 }
 
-.answer{
-    display: none;;
+.formula-Box{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.formulaSymbol{
+    background-color:pink;
+    border-radius: 3px;
+    width: 75px;
+    text-align: center;
 }

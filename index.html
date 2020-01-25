@@ -7,56 +7,38 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
         integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" 
         crossorigin="anonymous">
-    <link href="style.css" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
     <title>Temperature Converter</title>
 </head>
 <body>
-    <div class="container header">
-        <h2 class="text-primary text-center">Temperature Converter</h2>
-        <form>
-
-        </form>
-    </div>
-    
-    <div class="container content">
-        <form class="form">
-            <div class="form-group">
-                <label>Convert From</label>
-                <input name="temp" type="text" class="form-control convert-from" placeholder="Temperature">
-              </div>
-              <div class="form-group">
-                <label>Conversion</label>
-                <select class="form-control">
-                    <option selected>Choose...</option>
-                    <option value="Fahrenheit">Fahrenheit</option>
-                    <option value="Celcius">Celcius</option>
-                    <option value="Kelvin">Kelvin</option>
-                </select>
-              </div>
-        </form>
-    </div>
-
-    <div class="container content">
-        <form class="convert">
-            <div class="form-group">
-                <label>Convert To</label>
-                <select id="answer" class="form-control">
-                  <option selected>Choose...</option>
-                  <option value="Fahrenheit">Fahrenheit</option>
-                  <option value="Celcius">Celcius</option>
-                  <option value="Kelvin">Kelvin</option>
-                </select>
-            </div>
-        </form>
-    </div>
-
     <div class="container">
-        <button class="btn btn-primary m-auto">Convert!</button>
-    </div>
+        <h2>Temperature Converter</h2>
+        <div class="content">
+            <div class="conversion">
+                <input class="convert-FROM" type="text" placeholder="Convert From">
+                <p>=</p>
+                <input class="convert-to" type="text" placeholder="">
+            </div>
+    
+            <div class="conversion-type">
+                <select class="selection">
+                    <option value="fahrenheit">Fahrenheit</option>
+                    <option value="celcius">Celcius</option>
+                    <option value="kelvin">Kelvin</option>
+                  </select>
 
-    <div class="container answer">
-        <p class="text-primary text-center">Answer</p>
+                  <select class="answerSelection">
+                    <option value="celcius">Celcius</option>
+                    <option value="fahrenheit">Fahrenheit</option>
+                    <option value="kelvin">Kelvin</option>
+                  </select>
+            </div>
+            
+            <div class="formula-Box">
+                <p class="formulaSymbol">Formula</p>
+                <span class="formula">(°F − 32) × 5/9 + 273.15 = K</span>
+            </div>
+        </div>
     </div>
-    <script src="app.js"></script>
 </body>
 </html>

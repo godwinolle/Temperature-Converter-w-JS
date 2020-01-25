@@ -1,8 +1,3 @@
-//todays task is to make the display conversion container bigger and also to make sure the user 
-//is inputing something in the text field, we don't want to see no answers there, try an alert box 
-//and if that doesn't work, then popup. After this we should be done with this project
-
-
 const formValue = document.querySelector('.form');
 const convert = document.querySelector('.convert');
 const button = document.querySelector('.btn');
