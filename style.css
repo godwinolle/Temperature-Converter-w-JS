@@ -8,6 +8,7 @@ body{
 }
 
 .container{
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
     margin: 100px auto;
     background-color: rgb(32, 42, 56);
     width: 50%;
@@ -35,6 +36,10 @@ body{
 .conversion{
     display: flex;
     justify-content: space-evenly;
+}
+
+.conversion p{
+    color: white;
 }
 
 .conversion-type{
